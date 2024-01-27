@@ -67,20 +67,20 @@ public class Pizza {
     public String getBill(){
         StringBuilder sb=new StringBuilder();
 
-        if(isDelux){
-            sb.append("Base Price Of The Pizza: ");
-            sb.append(basePrice+extraToppingsPrice+extraCheesePrice);
-            sb.append('\n');
-            if(isBag){
-                sb.append("Paperbag Added: ");
-                sb.append(bagPrice);
-                sb.append('\n');
-            }
-            sb.append("Total Price: ");
-            sb.append(price);
-            sb.append('\n');
-            return sb.toString();
-        }
+//        if(isDelux){
+//            sb.append("Base Price Of The Pizza: ");
+//            sb.append(basePrice+extraToppingsPrice+extraCheesePrice);
+//            sb.append('\n');
+//            if(isBag){
+//                sb.append("Paperbag Added: ");
+//                sb.append(bagPrice);
+//                sb.append('\n');
+//            }
+//            sb.append("Total Price: ");
+//            sb.append(price);
+//            sb.append('\n');
+//            return sb.toString();
+//        }
 
         sb.append("Base Price Of The Pizza: ");
         sb.append(basePrice);
